@@ -1,1 +1,2 @@
-document.write("11111")
+var param = location.hash.split("#")[1];
+document.write("Hello " + param + " !")
